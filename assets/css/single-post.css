@@ -16,6 +16,10 @@
   word-wrap: break-word;
 }
 
+.single-post img {
+  max-width: 800px;
+}
+
 /* Breadcrumb */
 .breadcrumb-nav {
   margin-bottom: 1rem;
@@ -291,7 +295,7 @@
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 0.375rem;
 }
 

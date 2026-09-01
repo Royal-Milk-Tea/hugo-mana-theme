@@ -142,6 +142,7 @@
 
 .post-tag:hover {
   background-color: var(--accent-light-purple-rgba-01);
-  color: var(--tag-color);
+  color: var(--tag-color); 
   box-shadow: 0 0 8px var(--accent-light-purple-rgba-03);
 }
+
