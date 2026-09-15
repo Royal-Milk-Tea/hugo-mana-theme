@@ -146,3 +146,28 @@
   box-shadow: 0 0 8px var(--accent-light-purple-rgba-03);
 }
 
+.upcoming-events-list {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xl);
+}
+
+.upcoming-events-card {
+  display: flex;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  position: relative;
+  background-color: var(--accent-light-purple-rgba-01);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+  max-width: 50%;
+}
+
+.upcoming-events-card:hover {
+  background-color: var(--accent-light-purple-rgba-02);
+  color: var(--tag-color); 
+  box-shadow: 0 0 8px var(--accent-light-purple-rgba-03);
+}

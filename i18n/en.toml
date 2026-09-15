@@ -29,6 +29,7 @@ scrollToTop = "Scroll to top"
 # Home
 home = "Home"
 recentPosts = "Recent Posts"
+upcomingEvents = "Upcoming Events"
 
 # List & filters
 posts = "Posts"
